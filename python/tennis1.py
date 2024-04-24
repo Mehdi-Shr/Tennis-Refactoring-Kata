@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
 class TennisGame1:
+    # pas d'infos de déroulé de match, juste les scores
+    # nommage des variables
+    # les fonctions ont plusieurs responsabilités
+    # Boucle de décision imbriquées 
+    # découpage en fichiers
 
     def __init__(self, player1Name, player2Name):
         self.player1Name = player1Name
