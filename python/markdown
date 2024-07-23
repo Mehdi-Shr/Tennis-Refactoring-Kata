@@ -1,0 +1,21 @@
+# Analyse des Problèmes et Recommandations
+
+## Problème 1: Typage des noms des joueurs
+- **Description**: Les noms des joueurs peuvent être de tout type, ce qui peut causer des erreurs imprévues.
+- **Recommandation**: Vérifier que les noms des joueurs sont des chaînes de caractères non vides avant de les utiliser. Typé les noms des joueurs.
+
+## Problème 2: Simplification de la condition
+- **Description**: La condition `playerName == "player1"` est redondante et peut être simplifiée.
+- **Recommandation**: Remplacer la condition par `if playerName == self.player1Name`.
+
+## Problème 3: Noms de variables descriptifs
+- **Description**: Les noms de variables `endGameScore` et `regularScore` ne sont pas assez descriptifs.
+- **Recommandation**: Utiliser des noms de variables plus explicites, tels que `finalScore` et `regularScore`.
+
+## Problème 4: Utilisation de constantes
+- **Description**: Pourquoi le nombre 4 ?
+- **Recommandation**: Créer des constantes pour expliquer la signification des valeurs numériques magiques.
+
+## Problème 5: Usage incohérent de `match-case`
+- **Description**: L'usage de `match-case` n'est pas cohérent avec le reste du code Python et peut rendre le code moins compréhensible pour ceux qui ne sont pas familiers avec cette syntaxe.
+- **Recommandation**: Utiliser des structures de contrôle plus classiques comme des `if-elif-else` pour une meilleure cohérence et lisibilité.
